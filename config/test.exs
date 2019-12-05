@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :recepteur, Recepteur.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "mission",
   database: "recepteur_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
